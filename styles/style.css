@@ -121,6 +121,15 @@
   font-weight: 500;
   padding-bottom: 10px;
 }
+.fa-circle-play,
+.fa-download {
+  color: #ff42a5;
+  margin-right: 5px;
+}
+.fa-user {
+  color: #0b0223;
+  margin-right: 5px;
+}
 .btn-secondary {
   background: #4ec5f7;
   margin-left: 15px;
@@ -190,6 +199,19 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+.img-item {
+  border: #fff;
+}
+.img-item {
+  width: 100%;
+  background-color: red;
+}
+.img-item:hover {
+  border: 2px solid red;
+  transition: 1s;
+  border-radius: 16px;
+  cursor: pointer;
+}
 .card p {
   color: #534c64;
   font-size: 14px;
@@ -240,6 +262,42 @@
 .category-items img {
   width: 40px;
   height: 40px;
+}
+
+/* game section styles */
+.game {
+  padding: 50px 100px;
+}
+.game-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.game-content {
+  width: 50%;
+}
+.game-text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: right;
+}
+.game-img {
+  width: 50%;
+  position: relative;
+}
+.game-img img {
+  width: 100%;
+}
+.game-child-img {
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+}
+.game-child-img img {
+  width: 50%;
+}
+.color-span {
+  color: #0b0223;
 }
 
 /* footer section styles */
@@ -306,41 +364,6 @@ footer {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-}
-/* game section styles */
-.game {
-  padding: 50px 100px;
-}
-.game-container {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-.game-content {
-  width: 50%;
-}
-.game-text {
-  width: 70%;
-  margin: 0 auto;
-  text-align: right;
-}
-.game-img {
-  width: 50%;
-  position: relative;
-}
-.game-img img {
-  width: 100%;
-}
-.game-child-img {
-  position: absolute;
-  bottom: -50px;
-  left: -50px;
-}
-.game-child-img img {
-  width: 50%;
-}
-.color-span {
-  color: #0b0223;
 }
 
 /* small or mobile device styles */
@@ -451,6 +474,15 @@ footer {
     flex-direction: column;
     gap: 40px;
   }
+  .social-icons {
+    margin: 50px 0;
+  }
+  .social-icons img {
+    padding: 0 50px;
+  }
+  .copyright {
+    margin-top: 50px;
+  }
 }
 
 /* medium or tablet device styles */
@@ -509,5 +541,23 @@ footer {
   .game-img {
     margin-top: 40px;
     width: 80%;
+  }
+
+  footer {
+    background: #0b0223;
+    padding: 50px;
+  }
+  .item-break {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .social-icons {
+    margin: 50px 0;
+  }
+  .social-icons img {
+    padding: 0 50px;
+  }
+  .copyright {
+    margin-top: 50px;
   }
 }
