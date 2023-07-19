@@ -199,19 +199,6 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
-.img-item {
-  border: #fff;
-}
-.img-item {
-  width: 100%;
-  background-color: red;
-}
-.img-item:hover {
-  border: 2px solid red;
-  transition: 1s;
-  border-radius: 16px;
-  cursor: pointer;
-}
 .card p {
   color: #534c64;
   font-size: 14px;
@@ -239,6 +226,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
+  justify-content: center;
 }
 .category-items {
   display: flex;
