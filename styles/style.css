@@ -460,10 +460,18 @@ footer {
     width: 60%;
   }
 
+  .category {
+    padding: 50px;
+  }
   .category-container {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+  }
+  .category-items {
+    font-size: 10px;
+  }
+  .category-items img {
+    width: 20px;
+    height: 20px;
   }
 
   footer {
@@ -541,6 +549,10 @@ footer {
   .game-img {
     margin-top: 40px;
     width: 80%;
+  }
+
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   footer {
