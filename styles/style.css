@@ -177,6 +177,42 @@ main {
   width: 100%;
 }
 
+/* game section styles */
+.game {
+  padding: 50px 100px;
+}
+.game-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.game-content {
+  width: 50%;
+}
+.game-text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: right;
+}
+.game-img {
+  width: 50%;
+  position: relative;
+}
+.game-img img {
+  width: 100%;
+}
+.game-child-img {
+  position: absolute;
+  bottom: -50px;
+  left: -50px;
+}
+.game-child-img img {
+  width: 50%;
+}
+.game-span {
+  color: #0b0223;
+}
+
 /* small or mobile device styles */
 @media screen and (max-width: 576px) {
   .navbar {
@@ -241,7 +277,30 @@ main {
   .unlesh {
     font-size: 20px;
   }
+
+  .game {
+    padding: 50px;
+  }
+  .game-container {
+    flex-direction: column;
+  }
+  .game-content {
+    width: 100%;
+  }
+  .game-text {
+    width: 100%;
+    margin: 0 0;
+    text-align: center;
+  }
+  .game-text p {
+    margin-top: 40px;
+  }
+  .game-img {
+    margin-top: 40px;
+    width: 60%;
+  }
 }
+
 /* medium or tablet device styles */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .menus ul {
@@ -269,5 +328,27 @@ main {
   .gamer-img {
     text-align: center;
     width: 100%;
+  }
+
+  .game {
+    padding: 50px;
+  }
+  .game-container {
+    flex-direction: column;
+  }
+  .game-content {
+    width: 100%;
+  }
+  .game-text {
+    width: 100%;
+    margin: 0 0;
+    text-align: center;
+  }
+  .game-text p {
+    margin-top: 40px;
+  }
+  .game-img {
+    margin-top: 40px;
+    width: 80%;
   }
 }
