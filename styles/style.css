@@ -681,6 +681,9 @@ body {
   .game-text {
     text-align: center;
   }
+  .game-text p {
+    margin: 20px 0 0 0;
+  }
 
   /* career section styles */
   .career {
